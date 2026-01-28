@@ -1,0 +1,21 @@
+{
+  "name": "testing-ef-registry",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "caddy start --config Caddyfile && vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ef-runtime-client": "1.5.1"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "process": "^0.11.10",
+    "typescript": "~5.9.3",
+    "util": "^0.12.5",
+    "vite": "^7.2.4"
+  }
+}
